@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/main.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,700i" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+  <title>
+    
+  Step_Project_Forkio
+
+  </title>
+</head>
+<body>
+    <!-- Christina -->
+<!-- это просто пример верстки и как я заинклюдила навигацию и лого -->
+<!-- если будешь переделывать заинклюдь точно так же -->
+<!-- и также навешаны классы из бутстрапа -->
+<header class="header">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-2 col-md-6 col-sm-6 col order-lg-1 order-md-1">
+          <!-- Cristina -->
+<!-- это тоже пример верстки для лого -->
+<!-- <div class="logo-header">
+    <a href="index.html" class="logo-header__link"><img src="img/logo_header.png" alt="logo" class="logo-header__img"></a>
+</div> -->
+<div class="logo-header">
+    <a href="index.html" class="logo-header__link"></a>
+</div> 
+           <!-- это кнопка под мобильную версию, если будет нужно  -->
+        </div>
+        <div class="col-lg-8 col-md-12 col-sm-12 d-sm-flex mobile d-none justify-content-lg-end justify-content-md-center align-items-center order-lg-2 order-md-3 order-sm-3 order-3">
+          <!-- Christina -->
+<nav class="header-nav d-flex">
+  <div class="header-nav__item">
+    <a href="#" class="header-nav__link">Overview</a>
+  </div>
+  <div class="header-nav__item">
+    <a href="#" class="header-nav__link">About Fork</a>
+  </div>
+  <div class="header-nav__item">
+    <a href="#" class="header-nav__link">Buying Options</a>
+  </div>
+  <div class="header-nav__item">
+    <a href="#" class="header-nav__link">Support</a>
+  </div>
+</nav>
+        </div>
+        <div class="col-lg-2 col-md-6 col-sm-6 col d-flex justify-content-md-end  justify-content-sm-end order-lg-3 order-md-2">
+          <button class="header-btn">Buy Now</button>          
+        </div>
+        <div class="no-gutters col-lg-2 col-md-6 col-sm-4 col d-flex d-lg-none d-md-none d-sm-none" style="border: solid 1px"> 
+          <button class="menu-btn"> 
+  <span class="sandwich"></span>
+  <span class="cross close"></span>
+</button>
+        </div>
+      </div>
+    </div>
+</header>
+
+  <div class="maincontent" id="homepage">
+    
+<section class="hero">
+    <div class="container text-center">
+        <div class="row">
+            <div class="col text-center">
+                <h1 class="hero__title">Fork App</h1>
+                <h3 class="hero__subtitle">A real gamechanger in the world of web development</h3>
+                <p class="hero__paragraph">v.2.8 for Mac and Windows</p>
+            </div>
+        </div>
+        <div class="hero__button-container text-center">
+            <button class="hero__button btn-reset"> Download For Free Now</button>
+            <p class="hero__button-text-under">Unlimited 30-Days trial period</p>
+        </div>        
+    </div>
+</section>
+<!-- Christina -->
+
+<svg style="display: none;" xmlns="http://www.w3.org/2000/svg">
+  <symbol id="eye" viewBox="0 0 16 16">
+    <path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z" />
+  </symbol>
+  <symbol id="git-branch" viewBox="0 0 10 16">
+    <path fill-rule="evenodd" d="M10 5c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v.3c-.02.52-.23.98-.63 1.38-.4.4-.86.61-1.38.63-.83.02-1.48.16-2 .45V4.72a1.993 1.993 0 0 0-1-3.72C.88 1 0 1.89 0 3a2 2 0 0 0 1 1.72v6.56c-.59.35-1 .99-1 1.72 0 1.11.89 2 2 2 1.11 0 2-.89 2-2 0-.53-.2-1-.53-1.36.09-.06.48-.41.59-.47.25-.11.56-.17.94-.17 1.05-.05 1.95-.45 2.75-1.25S8.95 7.77 9 6.73h-.02C9.59 6.37 10 5.73 10 5zM2 1.8c.66 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2C1.35 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2zm0 12.41c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm6-8c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z" />
+  </symbol>
+  <symbol id="star" viewBox="0 0 14 16">
+    <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z" />
+  </symbol>
+</svg>
+
+<section class="revolutionary">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="section-title-h2">Revolutionary editor</h2>
+        <p class="revolutionary-text">Aenean cursus imperdiet nisl id fermentum. Aliquam pharetra dui laoreet vulputate
+          dignissim. Sed id metus id quam auctor molestie eget ut augue.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12">
+      <div class="revolutionary-item d-inline-flex">
+        <div class="revolutionary-icon">
+          <a href="#">
+            <svg class="eye">
+              <use xlink:href="#eye">
+                <!-- <use xlink:href="img/icons_svg/sprite.svg#eye"></use> -->
+            </svg>
+            Watch
+          </a>
+        </div>
+        <div class="revolutionary-number">
+          <a href="#">1,397</a>
+        </div>
+      </div>
+
+        <div class="revolutionary-item d-inline-flex">
+          <div class="revolutionary-icon">
+            <a href="#">
+              <svg class="star">
+                <use xlink:href="#star"></use>
+                <!-- <use xlink:href="img/icons_svg/sprite.svg#star"></use> -->
+              </svg>
+              Star
+            </a>
+          </div>
+          <div class="revolutionary-number">
+            <a href="#">21,038</a>
+          </div>
+        </div>
+
+        <div class="revolutionary-item d-inline-flex">
+          <div class="revolutionary-icon">
+            <a href="#">
+              <svg class="git-branch">
+                <use xlink:href="#git-branch"></use>
+                <!-- <use xlink:href="img/icons_svg/sprite.svg#git-branch"></use> -->
+              </svg>
+              Fork
+            </a>
+          </div>
+          <div class="revolutionary-number">
+            <a href="#">4,391</a>
+          </div>
+        </div>
+        </div>
+    </div>
+
+  </div>
+</section>
+<section class="options">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 pt-1">
+                    <h3 class="options__title-tablet">&ltHere is what you get&gt</h3>    
+                <div class="row mb-4">
+                    <div class="col">
+                        <div class="media">
+                            <div class="media-body-left mr-3 text-center">
+                                <img src="./img/icons_options/icon1.png" alt="image">
+                            </div>                            
+                            <div class="media-body media-body-right">
+                            <h5 class="mt-0 mb-3 media-title">Created to Make The Web Better</h5>
+                            <p class="media-text">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.</p>            
+                            </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="row mb-4">
+                    <div class="col">
+                        <div class="media">
+                            <div class="media-body-left mr-3 text-center">
+                                <img src="./img/icons_options/icon2.png" alt="image">
+                            </div>                        
+                            <div class="media-body media-body-right">
+                            <h5 class="mt-0 mb-3 media-title">Incredibly Powerful Tool</h5>
+                            <p class="media-text">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.</p>             
+                            </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="row mb-4">
+                    <div class="col">
+                        <div class="media">
+                            <div class="media-body-left mr-3 text-center">
+                                <img src="./img/icons_options/icon3.png" alt="image">
+                            </div>                            
+                            <div class="media-body media-body-right">
+                            <h5 class="mt-0 mb-3 media-title">Experimental Stuff</h5>
+                            <p class="media-text">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. </p>             
+                            </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="row mb-4">
+                    <div class="col">
+                        <div class="media">
+                            <div class="media-body-left mr-3 text-center">
+                                <img src="./img/icons_options/icon4.png" alt="image">
+                            </div>                            
+                            <div class="media-body media-body-right ">
+                            <h5 class="mt-0 mb-3 media-title">Created to Make The Web Better</h5>
+                            <p class="media-text">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.</p>             
+                            </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 pl-0 pr-0">                
+                <div class="options__img-title-wrap">
+                    <h3 class="options__title-desktop">&ltHere is what you get&gt</h3>
+                    <div class="options__img-wrap"></div>
+                    <!-- <img src="./img/editor.png" alt="img" class="opinions__img"> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+<section class="testimonials">
+    <div class="container-fluid pr-0 pl-0">
+        <div class="row no-gutters">
+            <div class="col">
+                <div class="testimonials__slider-wrap">
+                    <button class="testimonials__slider-btn testimonials__slider-btn--prev">
+                        <i class="fas fa-angle-left"></i>
+                    </button>
+                    <ul class="testimonials__slider">
+                        <li class="testimonials__slider-item">
+                            <div class="testimonials__slider-person-wrap">
+                                <img src="./img/imgs_slider/person1.png" alt="photo" class="testimonials__slider-person-img">
+                                <div class="testimonials__slider-person-data-wrap">
+                                    <span class="testimonials__slider-person-name">Steven Strange</span>
+                                    <span class="testimonials__slider-person-email">@DoctorS</span>
+                                </div>                                
+                            </div>
+                            <p class="testimonials__slider-description"> <span class="testimonials__slider-description-email">@Pixelbudha</span> Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.</p>
+                            <p class="testimonials__slider-time">2 hours ago</p>
+                        </li>
+                        <li class="testimonials__slider-item">
+                            <div class="testimonials__slider-person-wrap">
+                                <img src="./img/imgs_slider/person2.png" alt="photo" class="testimonials__slider-person-img">
+                                <div class="testimonials__slider-person-data-wrap">
+                                    <span class="testimonials__slider-person-name">Anna Unknown</span>
+                                    <span class="testimonials__slider-person-email">@NurseS</span>
+                                </div>                                
+                            </div>
+                            <p class="testimonials__slider-description"><span class="testimonials__slider-description-email">@Pixelbudha</span> Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.</p>
+                            <p class="testimonials__slider-time">2 hours ago</p>
+                        </li>
+                        <li class="testimonials__slider-item">
+                            <div class="testimonials__slider-person-wrap">
+                                <img src="./img/imgs_slider/person3.png" alt="photo" class="testimonials__slider-person-img">
+                                <div class="testimonials__slider-person-data-wrap">
+                                    <span class="testimonials__slider-person-name">Sara Clear</span>
+                                    <span class="testimonials__slider-person-email">@SisterS</span>
+                                </div>                                
+                            </div>
+                            <p class="testimonials__slider-description"><span class="testimonials__slider-description-email">@Pixelbudha</span> Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.</p>
+                            <p class="testimonials__slider-time">2 hours ago</p>
+                        </li>
+                    </ul>
+                    <button class="testimonials__slider-btn testimonials__slider-btn--next">
+                        <i class="fas fa-angle-right"></i>
+                    </button>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row"> 
+                <div class="col d-inline-flex testimonials__col-githab">
+                    <div class="testimonials__button-wrap text-center">
+                        <a href="#" class="testimonials__button testimonials__button-github">Github
+                            <span class="testimonials__button-icon testimonials__button-icon-github"><i class="fab fa-github"></i></span>                                
+                        </a>
+                        <a href="#" class="testimonials__button-followers">7375<span>Followers</span></a>
+                    </div> 
+                </div>
+                <div class="col d-inline-flex testimonials__col-twitter">         
+                    <div class="testimonials__button-wrap text-center">
+                        <a href="#" class="testimonials__button testimonials__button-twitter">Twitter
+                            <span class="testimonials__button-icon testimonials__button-icon-twitter"><i class="fab fa-twitter"></i></span>                                
+                        </a>
+                        <a href="#" class="testimonials__button-followers">7375<span>Followers</span></a>
+                    </div>
+                </div>
+                <div class="col d-inline-flex testimonials__col-facebook">
+                    <div class="testimonials__button-wrap text-center">
+                        <a href="#" class="testimonials__button testimonials__button-facebook">Facebook
+                            <span class="testimonials__button-icon testimonials__button-icon-facebook"><i class="fab fa-facebook-f"></i></span>                                
+                        </a>
+                        <a href="#" class="testimonials__button-followers">7375<span>Subscribers</span></a>
+                    </div>
+                </div>
+            </div>                   
+        </div>    
+</section>
+<!-- Christina -->
+<section class="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+          <h3 class="section-title-h3 white">People Are Talking About Fork</h3>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+        <div class="about-item">
+            <div class="about-icon">
+                <span class="logo1"></span>
+              </div>
+              <p class="about-text">Sed vestibulum scelerisque urna, eu finibus leo facilisis sit amet. Proin id dignissim magna. Sed varius urna et pulvinar venenatis.</p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-6 col-12 w-50">
+        <div class="about-item">
+            <div class="about-icon">
+                <span class="logo2"></span>
+              </div>
+              <p class="about-text">Donec euismod dolor ut ultricies consequat. Vivamus urna ipsum, rhoncus molestie neque ac, mollis eleifend nibh.</p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+        <div class="about-item">
+            <div class="about-icon">
+                <span class="logo3"></span>
+              </div>
+              <p class="about-text">In efficitur in velit et tempus. Duis nec odio dapibus, suscipit erat fringilla, imperdiet nibh. Morbi tempus auctor felis ac vehicula.</p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+        <div class="about-item">
+            <div class="about-icon">
+                <span class="logo4"></span>
+              </div>
+              <p class="about-text">Sed vestibulum scelerisque urna, eu finibus leo facilisis sit amet. Proin id dignissim magna. Sed varius urna et pulvinar venenatis.</p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+        <div class="about-item">
+            <div class="about-icon">
+                <span class="logo5"></span>
+              </div>
+              <p class="about-text">Praesent ut eros tristique, malesuada lectus vel, lobortis massa. Nulla faucibus lorem id arcu consequat faucibus.</p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+        <div class="about-item">
+            <div class="about-icon">
+                <span class="logo6"></span>
+              </div>
+              <p class="about-text">Fusce pharetra erat id odio blandit, nec pharetra eros venenatis. Pellentesque porttitor cursus massa et vestibulum.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="section-footer d-sm-block d-none">
+    <div class="container">
+      <div class="row">
+        <div class="col-10 m-auto">
+          <p class="section-footer__text">Duis lobortis arcu sed arcu tincidunt feugiat. Nulla nisi mauris, facilisis vitae aliquet id, imperdiet quis nibh. Donec eget elit eu libero tincidunt consequat nec elementum orci. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>  
+        </div>
+      </div>
+    </div>
+  </footer>
+</section>
+<!-- Christina -->
+<section class="pricing">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-12">
+        <h3 class="section-title-h3 white">
+          Fork Subscription Pricing
+        </h3>
+      </div>
+
+      <!-- Pricing cards -->
+
+      <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+        <div class="row">
+          <div class="pricing-card">
+            <div class="pricing-card__header">
+              <h5 class="pricing-card__title">Students</h5>
+            </div>
+            <div class="pricing-card__content">
+              <h4 class="pricing-card__price">
+                <span>&#36;</span>29
+              </h4>
+              <span class="pricing-card__duration">per month</span>
+              <p class="pricing-card__descr">Personal License</p>
+              <button class="pricing-card__btn">purchase</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+        <div class="row">
+          <div class="pricing-card">
+            <div class="pricing-card__header">
+              <h5 class="pricing-card__title">professional</h5>
+            </div>
+            <div class="pricing-card__content">
+              <h4 class="pricing-card__price">
+                <span>&#36;</span>59
+              </h4>
+              <span class="pricing-card__duration">per month</span>
+              <p class="pricing-card__descr">Professional License<br>Email Support</p>
+              <button class="pricing-card__btn">purchase</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+        <div class="row">
+          <div class="pricing-card active">
+            <div class="pricing-card__header">
+              <h5 class="pricing-card__title">agency</h5>
+            </div>
+            <div class="pricing-card__content">
+              <h4 class="pricing-card__price">
+                <span>&#36;</span>99
+              </h4>
+              <span class="pricing-card__duration">per month</span>
+              <p class="pricing-card__descr">1-12 Team Members<br>Phone Support</p>
+              <button class="pricing-card__btn">purchase</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+        <div class="row">
+          <div class="pricing-card">
+            <div class="pricing-card__header">
+              <h5 class="pricing-card__title">enterprise</h5>
+            </div>
+            <div class="pricing-card__content">
+              <h4 class="pricing-card__price">
+                <span>&#36;</span>159
+              </h4>
+              <span class="pricing-card__duration">per month</span>
+              <p class="pricing-card__descr">Unlimited Team Members<br>24/ 7 Phone Support</p>
+              <button class="pricing-card__btn">purchase</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="footer section-footer d-lg-block d-none">
+    <div class="container">
+      <div class="row">
+        <div class="col-10 m-auto">
+          <p class="section-footer__text">
+            Duis lobortis arcu sed arcu tincidunt feugiat. Nulla nisi mauris, facilisis vitae aliquet id, imperdiet quis nibh. Donec eget elit eu libero tincidunt consequat nec elementum orci. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="callback">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl col-lg col-md-12 col-title-order">
+                <p class="callback__title text-md-center">Order callback</p>
+                <p class="callback__title-mobile text-center">Subscribe To Stay In Touch</p>
+            </div>               
+            <div class="col-xl col-lg col-md-6 col-sm-12  col-input-name">
+                <input type="text" class="callback__input-name" placeholder="Your name">
+            </div>
+            <div class="col-xl col-lg col-md-6 col-sm-12  col-input-phone">
+                <input type="text" class="callback__input-phone" placeholder="Phone">
+            </div>
+            <div class="col-xl-2 col-lg col-md-12 text-md-center col-button">
+                <button class="callback__button text-md-center"> 
+                    <span class="callback__button-title">Call me!</span> 
+                    <span class="callback__button-title-mobile">Subscribe!</span>
+                </button>               
+            </div>
+        </div>
+    </div>
+</section>
+
+  </div>
+  <Footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="logo-footer">
+    <a href="index.html" class="logo-footer__link"><img src="img/logo_footer.png" alt="logo" class="logo-footer__img"></a>
+    <a href="#" class="logo-footer__link-mob">
+        <span class="logo-footer__link-mob-text-black">FORK</span><span class="logo-footer__link-mob-text-purple">IO</span>
+    </a>
+</div>
+                <p class="logo-text-under">Lorem ipsum dolor sit amet feugiat delicat liberavisse id cum no quo</p>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="footer__nav-wrap">
+                    <h5 class="footer__nav-title">Navigation</h5>
+                    <ul class="footer__nav">
+                        <li class="footer__nav-item"><a href="#" class="footer__nav-link">Home</a></li>
+                        <li class="footer__nav-item"><a href="#" class="footer__nav-link">Overview</a></li>
+                        <li class="footer__nav-item"><a href="#" class="footer__nav-link">About</a></li>
+                        <li class="footer__nav-item"><a href="#" class="footer__nav-link">Buying options</a></li>
+                        <li class="footer__nav-item"><a href="#" class="footer__nav-link">Support</a></li>
+                    </ul>
+                </div>              
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 mb-4">
+                <address class="contacts">
+                    <div class="contacts__phone-wrap">
+                        <a href="347 567 78 90" class="contacts__phone-link">
+                            <span class="contacs__phone-description">347 567 78 90</span>                           
+                        </a>
+                        <span class="contacts__phone-schedule">Available from 12pm-18pm</span>
+                    </div>
+                    <div class="contacts__adress-wrap">
+                        <span class="contacts__adress-city">New York, NY</span>
+                        <p class="contacts__adress-descr">560 Judah St & 15Ave, Apt 5, New York, NY, 23093</p>
+                    </div>
+                </address>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="footer__info-wrap">
+                    <h5 class="footer__info-title">Info</h5>
+                    <p class="footer__info-text">
+                            Wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex commodo consequat. Autem vel hendrerit iriure dolor in hendrerit. 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</Footer> 
+  <script src="js/bundle.js"></script>
+</body>
+</html>
